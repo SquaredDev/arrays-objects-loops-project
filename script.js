@@ -82,9 +82,12 @@ function addActor(){
 */
 function getLosses(){
     // Your answer here:
+    addBoxOffice();
+    loss = (film.boxoffice - film.budget)
+    return loss
 }
 
-
+console.log(film);
 
 
 
